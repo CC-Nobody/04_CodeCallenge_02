@@ -22,22 +22,22 @@ switch (true) {
         console.log("Entschuldigung, wie war Ihr Name nochmal?")
         break;
     case age<0:
-        console.log(fullName, ",Ungeborene herhalten keine Drinks von uns.");
+        console.log("Ungeborene herhalten keine Drinks von uns.");
         break;
     case age<6:
-        console.log(fullName, ",hier ist deine Milch.");
+        console.log(fullName, "hier ist deine Milch.");
         break;
     case age<13:
-        console.log(fullName, ",hier ist dein Saft.");
+        console.log(fullName, "hier ist dein Saft.");
         break;
     case age<18:
-        console.log(fullName, ",hier ist deine Cola.");
+        console.log(fullName, "hier ist deine Cola.");
         break;
     case age>0:
-        console.log(fullName, ",hier ist dein Wein.");
+        console.log(fullName, "hier ist dein Wein.");
         break;
 
     default:
-        console.log(fullName, ",kein Alter, keine Drinks")
+        console.log(fullName, "kein Alter, keine Drinks")
         break;
 }
