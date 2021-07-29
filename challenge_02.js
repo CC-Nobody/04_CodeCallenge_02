@@ -13,3 +13,28 @@ Alter 13-17 // Cola
 18 + // Wein
 
 /* Getränke-Challenge */
+
+const fullName = prompt("Wie lautet Ihr Name?");
+let age =parseInt(prompt("Wie als sind Sie?"));
+
+switch (true) {
+    case fullName === "":
+        console.log("Entschuldigung, wie war Ihr Name nochmal?")
+        break;
+    case age<6:
+        console.log(fullName, "hier ist deine Milch.");
+        break;
+    case age<13:
+        console.log(fullName, "hier ist dein Saft.");
+        break;
+    case age<17:
+        console.log(fullName, "hier ist deine Cola.");
+        break;
+    case age>0:
+        console.log(fullName, "hier ist dein Wein.");
+        break;
+
+    default:
+        console.log(fullName, "kein Alter, keine Drinks")
+        break;
+}
