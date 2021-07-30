@@ -14,9 +14,12 @@ Alter 13-17 // Cola
 
 /* Getränke-Challenge */
 
+
+// Deklaration der Var. / Const.
 const fullName = prompt("Wie lautet Ihr Name?");
 let age =parseInt(prompt("Wie als sind Sie?"));
 
+// Funktion
 switch (true) {
     case fullName === "":
         console.log("Entschuldigung, wie war Ihr Name nochmal?")
