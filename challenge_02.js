@@ -25,7 +25,7 @@ switch (true) {
         console.log("Entschuldigung, wie war Ihr Name nochmal?")
         break;
     case age<0:
-        console.log("Ungeborene herhalten keine Drinks von uns.");
+        console.log("Guter Witz, versuchs nochmal.");
         break;
     case age<6:
         console.log(fullName, "hier ist deine Milch.");
